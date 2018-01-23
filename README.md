@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
----
+
 
 Check if packages used in the code are installed, install if not and load the package into the session.
 ```r
@@ -9,7 +9,6 @@ library(plyr)
 library(reshape2)
 ```
 
----
 Download file from the web, unzip and set working directory into the unzipped folder for easier access to data files.
 ```r
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "./20Dataset.zip")
