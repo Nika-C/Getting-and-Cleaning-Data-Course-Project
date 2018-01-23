@@ -15,23 +15,23 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Feature Variable | Unit |
 -----------------|------|
-tBodyAcc-XYZ | 
-tGravityAcc-XYZ | 
-tBodyAccJerk-XYZ | 
-tBodyGyro-XYZ | 
-tBodyGyroJerk-XYZ | 
-tBodyAccMag | 
-tGravityAccMag | 
-tBodyAccJerkMag | 
-tBodyGyroMag | 
-tBodyGyroJerkMag | 
-fBodyAcc-XYZ | 
-fBodyAccJerk-XYZ | 
-fBodyGyro-XYZ | 
-fBodyAccMag | 
-fBodyAccJerkMag | 
-fBodyGyroMag | 
-fBodyGyroJerkMag | 
+tBodyAcc-XYZ | m/s<sup>2</sup> |
+tGravityAcc-XYZ | m/s<sup>2</sup> |
+tBodyAccJerk-XYZ | m/s<sup>2</sup> |
+tBodyGyro-XYZ | rad/s |
+tBodyGyroJerk-XYZ | rad/s |
+tBodyAccMag | m/s<sup>2</sup> |
+tGravityAccMag | m/s<sup>2</sup> |
+tBodyAccJerkMag | m/s<sup>2</sup> |
+tBodyGyroMag | rad/s |
+tBodyGyroJerkMag | rad/s |
+fBodyAcc-XYZ | m/s<sup>2</sup> |
+fBodyAccJerk-XYZ | m/s<sup>2</sup> |
+fBodyGyro-XYZ | rad/s |
+fBodyAccMag | m/s<sup>2</sup> |
+fBodyAccJerkMag | m/s<sup>2</sup> |
+fBodyGyroMag | rad/s |
+fBodyGyroJerkMag | rad/s |
 
 Sets of variables that were estimated from these signals include: 
 * mean(): Mean value
