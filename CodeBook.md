@@ -49,6 +49,6 @@ Among these variables, only the Mean value and Standard deviation of each featur
 2. A column was added to both test and training set table identifying if it is a test or training set, under the column name “SetType”.
 3. The two tables were merged into one.
 4. The set data variables were named accordingly as the 561-features in the “features.txt” file.
-5. The data was subsetted to include only the Mean value(mean()) and Standard deviation(std()) of the features.
+5. The data was subsetted to include only the Mean value(mean()) and Standard deviation(std()) from the feature variables.
 6. Labels shown in numbers were replaced with corresponding Activity description.
-7. Data with the same Subject and Activity were collated into one average value.
+7. Data with the same Subject and Activity variables were collated into one average value.
