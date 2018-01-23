@@ -16,7 +16,7 @@ unzip("./20Dataset.zip")
 setwd("./UCI HAR Dataset")
 ```
 
-Read in the three text files containing information about the processed signal data, subject, and activity lables into R, using the `read.table` function. Name the columns appropriately, and use `stingsAsFactors=False` for easier handling of the data. (Detailed information in the folder 'Inertial Signals' seems unnecessary to read in as it is already processed into a single dataset in the signal data (i.e. subject_test.txt.))
+Read in the three text files containing information about the processed signal data, subject, and activity lables into R, using the `read.table` function. Name the columns appropriately, and use `stingsAsFactors=False` for easier handling of the data. The column names for `SetTest` is arbitrarily labeled as "f1~f561" for simplicity. (Detailed information in the folder 'Inertial Signals' seems unnecessary to read in as it is already processed into a single dataset in the signal data (i.e. subject_test.txt.))
 ```r
 SetTest <- read.table("./test/X_test.txt", col.names=paste("f",c(1:561),sep=""), stringsAsFactors=FALSE)
 SubjTest <- read.table("./test/subject_test.txt", col.names="Subject", stringsAsFactors=FALSE)
